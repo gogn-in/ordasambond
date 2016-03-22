@@ -3,7 +3,6 @@
 from itertools import permutations
 import logging
 import scrapy
-from scrapy.utils.request import request_fingerprint
 import string
 import lxml.html
 from ordasambond.items import OrdasambondItem
